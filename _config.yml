@@ -19,7 +19,7 @@ url: http://mbacchi.github.io
 ####################################
 #
 markdown:    kramdown
-highlighter:  pygments
+highlighter:  rouge
 excerpt_separator: <!--more-->
 
 kramdown:
@@ -36,7 +36,7 @@ kramdown:
 #
 owner:
   name: Matt Bacchi
-  avatar: 
+  avatar:
   job: "QA and Release Engineer"
   bio: "\'I don't want to attain immortality through my work, I want to attain it through not dying.\' -Woody Allen"
   email: mbacchi@gmail.com
