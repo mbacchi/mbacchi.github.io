@@ -3,7 +3,8 @@ layout: post
 title:  "Hybrid Cloud for Dummies"
 date:   2016-01-20 21:10:00
 comments: true
-tags: cloud, hybrid
+published: false
+tags: cloud hybrid
 ---
 
 If you've ever thought to yourself that the term "Hybrid Cloud" is
