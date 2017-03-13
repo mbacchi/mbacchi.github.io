@@ -37,7 +37,7 @@ kramdown:
 owner:
   name: Matt Bacchi
   avatar:
-  job: "QA and Release Engineer"
+  job: "Devops Engineer"
   bio: "\'I don't want to attain immortality through my work, I want to attain it through not dying.\' -Woody Allen"
   email: mbacchi@gmail.com
   disqus-shortname: mbacchigithubio
@@ -52,7 +52,7 @@ owner:
   bing-verify:
   github: mbacchi #username
   stackoverflow: 4332397/obelix15012 #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: mbacchi #username
   xing: #username
   instagram: #username
   lastfm: #username

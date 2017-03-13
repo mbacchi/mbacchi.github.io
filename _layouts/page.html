@@ -5,7 +5,9 @@ layout: default
 <div class="container">
   <div id="page">
     <header class="page-header">
+      {% unless page.exclude %}
       <h2>{{ page.title }}</h2>
+      {% endunless %}
     </header>
 
     <article class="page-content">
