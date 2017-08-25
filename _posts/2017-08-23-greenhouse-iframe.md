@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How come greenhouse.io job posts became unviewable"
+title:  "Empty greenhouse.io job posts"
 date:   2017-08-24 10:15:00
 comments: true
 published: true
