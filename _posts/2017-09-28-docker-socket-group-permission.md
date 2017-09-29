@@ -10,9 +10,9 @@ I always forget this when trying to run docker as a non-root user, so documentin
 it for posterity.
 
 If you get an error connecting to the docker daemon as a standard user, such as:
-
+<!--more-->
 {% highlight shell %}
-[mbacchi@centos7 warehouse]$ docker ps
+[mbacchi@centos7 ~]$ docker ps
 Cannot connect to the Docker daemon. Is the docker daemon running on this host?
 {% endhighlight %}
 
@@ -43,8 +43,8 @@ Hint: Some lines were ellipsized, use -l to show in full.
 {% endhighlight %}
 
 The solution I've found most straightforward (but rather apathetic on the security
-  front) you can change the permissions of the docker.sock file as long as your
-  userid is in the dockerroot group:
+  front) is to change the permissions of the docker.sock file, but your
+  userid must be in the dockerroot group:
 
 {% highlight shell %}
 [mbacchi@centos7 ~]$ grep docker /etc/group
