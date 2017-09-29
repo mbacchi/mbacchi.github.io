@@ -2,7 +2,7 @@
 
 
 serve:
-	JEKYLL_ENV=production jekyll serve
+	jekyll serve
 
 build:
 	jekyll build
