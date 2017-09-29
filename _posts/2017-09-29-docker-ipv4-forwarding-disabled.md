@@ -15,7 +15,7 @@ warning **"[Warning] IPv4 forwarding is disabled. Networking will not work."**
 tells you that you need to enable IPv4 forwarding.
 
 <!--more-->
-{% highlight console %}
+{% highlight shell %}
 Step 10 : RUN set -x && pip install -U pip setuptools && pip install -r /tmp/requirements/dev.txt ...
  ---> [Warning] IPv4 forwarding is disabled. Networking will not work.
  ---> Running in b4b9fb134518
@@ -28,7 +28,7 @@ Name or service not known,): /simple/pip/
 First setup the docker daemon config file to have a DNS server or two available
 to make requests of:
 
-{% highlight console %}
+{% highlight shell %}
 [mbacchi@centos7 ~]$ cat /etc/docker/daemon.json
 {
     "dns": ["10.1.1.254","8.8.8.8","10.115.1.220"],
@@ -46,7 +46,7 @@ be done using the sysctl parameter net.ipv4.ip_forward. It can be set once from
 the command line but upon system restart will not be retained, so I set it in
 the docker sysctl file:
 
-{% highlight console %}
+{% highlight shell %}
 [mbacchi@centos7 ~]$ cat  /usr/lib/sysctl.d/99-docker.conf
 fs.may_detach_mounts=1
 net.ipv4.ip_forward=1
@@ -57,7 +57,7 @@ daemon is started or restarted.
 
 Now we can perform that restart and make sure both of these changes are enabled.
 
-{% highlight console %}
+{% highlight shell %}
 [mbacchi@centos7 ~]$ sudo systemctl restart docker
 [mbacchi@centos7 ~]$
 {% endhighlight %}
