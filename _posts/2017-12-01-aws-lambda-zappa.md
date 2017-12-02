@@ -84,7 +84,7 @@ def hello_world():
 With the Flask "application" in my current directory, I was able to run "zappa init" to get everything built. It asks some questions:
 
 {% highlight shell %}
-(venv) [user1@hostname blod-dir]$ zappa init
+(venv) [user1@hostname hello]$ zappa init
 
 ███████╗ █████╗ ██████╗ ██████╗  █████╗
 ╚══███╔╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗
