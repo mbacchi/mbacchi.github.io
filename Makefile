@@ -5,4 +5,4 @@ serve:
 	JEKYLL_ENV=development jekyll serve
 
 build:
-	jekyll build
+	JEKYLL_ENV=development jekyll build
