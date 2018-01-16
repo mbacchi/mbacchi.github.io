@@ -38,7 +38,7 @@ layout: default
   </div>
 
 <!-- mbacchi comment out share buttons for now -->
-<!--  <div class="share-buttons">
+<div class="share-buttons">
     <h6>Share on: </h6>
     <ul>
       <li>
@@ -53,11 +53,13 @@ layout: default
       <li>
         <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
       </li>
+      <!--
       <li>
         <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
       </li>
+      -->
     </ul>
-  </div> --> <!-- end share-buttons -->
+  </div> <!-- end share-buttons -->
 
   {% if site.owner.disqus-shortname and page.comments == true %}
   <div id="disqus_thread"></div>
