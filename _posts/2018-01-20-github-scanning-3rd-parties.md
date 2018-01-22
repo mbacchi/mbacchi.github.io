@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3rd Party Github Credential Scanning "
+title: "3rd Party Github Credential Scanning"
 date: 2018-01-20 22:00:00
 comments: true
 published: true
