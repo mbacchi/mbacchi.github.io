@@ -4,7 +4,7 @@ title: "Using dnsmasq on Asuswrt-merlin to ignore MAC addresses"
 date: 2017-12-13 12:15:00
 comments: true
 published: true
-tags: WiFi Asuswrt-merlin dnsmasq
+tags: wifi asuswrt-merlin dnsmasq
 ---
 
 Here's another 'for posterity' type post. I forgot I had configured my WiFi router

@@ -4,7 +4,7 @@ title: "3 Ways to Prevent .pypirc Credentials or Other Secrets from Leaking onto
 date: 2017-12-22 16:45:00
 comments: true
 published: true
-tags: PyPi security github
+tags: pypi security github
 ---
 
 Even if you're not involved in the Python community, you might have heard about
