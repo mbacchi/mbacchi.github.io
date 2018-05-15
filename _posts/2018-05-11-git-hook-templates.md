@@ -7,7 +7,7 @@ published: true
 tags: git security github aws
 ---
 
-Git doesn't have the concept of a per user global hook. It would be nice if you could create hooks in your home directory that could be executed in all repositories that work with. Instead, it does allow you to write hooks that reside in a user specific template directory to then be copied into any repositories that you clone or create from scratch.
+Git doesn't have the concept of a per user global hook. It would be nice if you could create hooks in your home directory that could be executed in all repositories that you work with. Instead, it does allow you to write hooks that reside in a user specific template directory to then be copied into any repositories that you clone or create from scratch.
 
 After following this guide to configure template hooks, when you clone or create a new repository using the `git init` command, your hooks will be copied into your new repositories.
 
