@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mbacchi.github.io
+Token: aa60fe029220474ca9aa1b32b94514d98587611c6b8c35a4055cca7ebce22ec5
