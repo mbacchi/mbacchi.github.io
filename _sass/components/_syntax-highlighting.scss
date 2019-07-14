@@ -14,6 +14,12 @@ code {
   white-space: normal;
   border-radius: 0;
 }
+pubkey {
+  font-family: $monospace-font-family;
+  color: black;
+  background-color: white;
+  font-size: ($base-font-size - 2);
+}
 pre { // only apply for code blocks
   overflow: auto;
   display: block;

@@ -9,18 +9,12 @@
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
-      {% for page in site.pages %} {% if page.title %}
-      <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
-        {% if forloop.index != 6 %}
-        <!--
-          HACK!!!! because forloop.last apparently does not work in github pages. I know tags is forloop.index number 6. total hack!  If you add
-          another page you gotta come up with another plan.
-        -->
-        <span>/</span>
-        {% endif %}
-      </li>
-      {% endif %} {% endfor %}
+
+        <li class="nav-item"><a href="/resume.html">Resume</a></li> <span>/</span>
+        <li class="nav-item"><a href="/public_keys.html">Public GPG Keys</a></li> <span>/</span>
+        <li class="nav-item"><a href="/archive.html">Archive</a></li> <span>/</span>
+        <li class="nav-item"><a href="/tags.html">Tags</a></li>
+
     </ul>
   </nav>
   {% include social-links.html %}
