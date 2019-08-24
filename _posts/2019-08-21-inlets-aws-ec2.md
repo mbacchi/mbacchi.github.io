@@ -74,7 +74,7 @@ project. Lets see if we can do this with less effort using Terraform.
 
 The terraform equivalent to setup an EC2 instance with all the plumbing is quite
 a bit more concise. You can view the Terraform I wrote in [this
-repository](https://github.com/mbacchi/inlets-aws-ec2-terraform).
+repository](https://github.com/mbacchi/inlets-aws-terraform).
 
 **Note**: We don't create an AWS keypair in Terraform, I consider that bad form.
 In order to avoid any security concerns we expect that you use a keypair
@@ -93,15 +93,15 @@ to use the CLI.
 These steps include:
 
 * Install terraform
-* Clone the [inlets-aws-ec2-terraform
-repository](https://github.com/mbacchi/inlets-aws-ec2-terraform) (i.e. `git clone https://github.com/mbacchi/inlets-aws-ec2-terraform`)
-* `cd inlets-aws-ec2-terraform`
+* Clone the [inlets-aws-terraform
+repository](https://github.com/mbacchi/inlets-aws-terraform) (i.e. `git clone https://github.com/mbacchi/inlets-aws-terraform`)
+* `cd inlets-aws-terraform`
 * Run `terraform init`
 * Export environment variables for your AWS_PROFILE and AWS_REGION. This looks
   something like: `export AWS_PROFILE=PROFILE_NAME && export AWS_REGION=us-east-2`
 * Don't forget to change the `PROFILE_NAME` in the export command above!
 * Change the `key_name` on [line
-64](https://github.com/mbacchi/inlets-aws-ec2-terraform/blob/master/main.tf#L64)
+64](https://github.com/mbacchi/inlets-aws-terraform/blob/master/main.tf#L64)
 of `main.tf` to the name of your own keypair!
 
 ### Create the terraform plan
@@ -178,4 +178,4 @@ application that was running locally only.
 ## Remove the Terraformed infrastructure
 
 When you want to remove this infrastructure, run `terraform destroy` from the
-cloned `inlets-aws-ec2-terraform` directory where you ran `terraform apply` etc.
+cloned `inlets-aws-terraform` directory where you ran `terraform apply` etc.
