@@ -79,7 +79,7 @@ repository](https://github.com/mbacchi/inlets-aws-ec2-terraform).
 **Note**: We don't create an AWS keypair in Terraform, I consider that bad form.
 In order to avoid any security concerns we expect that you use a keypair
 previously generated or uploaded to your AWS account. You can use the `aws ec2
-create-key-pair` command [above](#Using-the-AWS-CLI) as an example if you want
+create-key-pair` command [above](#using-the-aws-cli) as an example if you want
 to use the CLI.
 
 ### Prerequisites
