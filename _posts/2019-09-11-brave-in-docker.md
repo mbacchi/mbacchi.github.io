@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Running Brave in a Docker Container"
-date:   2019-09-09 19:45:00
+date:   2019-09-11 19:00:00
 comments: true
 published: true
 tags: brave docker container chromium chrome
