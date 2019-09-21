@@ -11,7 +11,8 @@ description: A simple and awesome blog theme powered by jekyll.
 # Then, the 'url' is: http://yourname.github.io
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
-url: http://mbacchi.github.io
+url: https://mbacchi.github.io
+# baseurl: ""
 include: [".well-known"]
 
 #
