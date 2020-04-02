@@ -24,7 +24,7 @@ to the S3 bucket are in the
 [README.md](https://github.com/mbacchi/lambda-edge-cloudfront-terraform/blob/master/README.md).
 Follow those instructions to deploy using Terraform.
 
-**NOTE**: Deploying can take 20-30 minutes in order to replicate the CloudFront
+**NOTE**: Deploying can take 5 minutes in order to replicate the CloudFront
 distribution to all AWS edge locations.
 
 ### Overview
@@ -118,7 +118,18 @@ This was an interesting project to work on. CloudFront and Lambda@Edge appear
 quite useful now that I've learned the basics. Hope you got something out of
 this demo too.
 
-I've requested some information from AWS regarding the 20-30 minute deployment
-time, and will report back when I get a response.
-
 Enjoy!
+
+### Addendum
+
+In the original version of this post, I indicated that these deployments could
+take anywhere from 20-30 minutes. I've corrected this information because that
+has now changed.
+
+The AWS CloudFront team has recently shared [updated information about their
+deployment
+times](https://aws.amazon.com/blogs/networking-and-content-delivery/slashing-cloudfront-change-propagation-times-in-2020-recent-changes-and-looking-forward/).
+They have improved these deployments from 20-30 minutes to typically around 5
+minutes.
+
+This is a major improvement and makes it much easier to use.
