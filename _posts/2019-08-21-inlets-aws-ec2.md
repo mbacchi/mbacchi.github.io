@@ -5,6 +5,7 @@ date: 2019-08-21 12:00:00
 comments: true
 published: true
 tags: terraform inlets aws ec2
+redirect_to: "https://bacchi.org/posts/inlets-aws-ec2/"
 ---
 
 [Inlets](https://github.com/alexellis/inlets) is a fairly new project that
