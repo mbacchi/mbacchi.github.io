@@ -4,6 +4,7 @@ title:  "Docker socket group permissions"
 date:   2017-09-28 15:15:00
 comments: true
 tags: docker
+redirect_to: https://bacchi.org/posts/docker-socket-group-permission/
 ---
 
 I always forget this when trying to run docker as a non-root user, so documenting

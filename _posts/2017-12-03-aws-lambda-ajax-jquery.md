@@ -5,6 +5,7 @@ date:   2017-12-03 20:15:00
 comments: true
 published: true
 tags: aws lambda ajax jquery
+redirect_to: https://bacchi.org/posts/aws-lambda-ajax-jquery/
 ---
 
 I've been trying to learn more about AWS Lambda, at the same time learning some

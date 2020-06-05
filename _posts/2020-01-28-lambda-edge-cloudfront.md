@@ -5,6 +5,7 @@ date:   2020-01-28 21:00:00
 comments: true
 published: true
 tags: aws terraform cdn cloudfront lambda [aws cloudfront] [aws lambda]
+redirect_to: https://bacchi.org/posts/lambda-edge-cloudfront/
 ---
 
 I've been attempting to learn more about Lambda@Edge and how to use functions at

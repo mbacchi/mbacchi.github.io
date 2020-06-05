@@ -5,6 +5,7 @@ date: 2017-12-22 16:45:00
 comments: true
 published: true
 tags: pypi security github
+redirect_to: https://bacchi.org/posts/3-ways-prevent-secret-leaks-github/
 ---
 
 Even if you're not involved in the Python community, you might have heard about

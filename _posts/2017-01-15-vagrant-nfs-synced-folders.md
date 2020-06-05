@@ -4,6 +4,7 @@ title:  "Vagrant NFS synced_folders"
 date:   2017-01-15 10:56:00
 comments: true
 tags: vagrant
+redirect_to: https://bacchi.org/posts/vagrant-nfs-synced-folders/
 ---
 
 After upgrading to Fedora 25 yesterday, Vagrant 1.8.5 in the updates repo was

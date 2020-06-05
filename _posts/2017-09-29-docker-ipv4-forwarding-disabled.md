@@ -4,6 +4,7 @@ title:  "Docker error IPv4 forwarding is disabled"
 date:   2017-09-29 10:15:00
 comments: true
 tags: docker
+redirect_to: https://bacchi.org/posts/docker-ipv4-forwarding-disabled/
 ---
 
 Another common error is that the docker daemon cannot connect to the outside

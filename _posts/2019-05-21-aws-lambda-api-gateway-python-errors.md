@@ -5,6 +5,7 @@ date: 2019-05-21 12:00:00
 comments: true
 published: true
 tags: api [Serverless Framework] serverless lambda python
+redirect_to: https://bacchi.org/posts/aws-lambda-api-gateway-python-errors/
 ---
 
 

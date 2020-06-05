@@ -5,6 +5,7 @@ date: 2019-07-29 12:00:00
 comments: true
 published: true
 tags: python docker debian buster alpine dockerhub
+redirect_to: https://bacchi.org/posts/official-python-docker-images/
 ---
 
 We have all become accustomed to services on the internet being reliable and

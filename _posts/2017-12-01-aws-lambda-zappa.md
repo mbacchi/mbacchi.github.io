@@ -5,6 +5,7 @@ date:   2017-12-01 19:45:00
 comments: true
 published: true
 tags: aws lambda zappa
+redirect_to: https://bacchi.org/posts/aws-lambda-zappa/
 ---
 
 I spent a little time with [Zappa](https://github.com/Miserlou/Zappa) today which is an AWS Lambda (aka "serverless")

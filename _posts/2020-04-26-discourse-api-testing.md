@@ -5,6 +5,7 @@ date:   2020-04-26 21:00:00
 comments: true
 published: true
 tags: api docker container discourse
+redirect_to: https://bacchi.org/posts/discourse-api-testing/
 ---
 
 Discourse is used for a number of purposes, but their forum software is quite popular. I've been looking at how to us the [Discourse API](https://docs.discourse.org/) to

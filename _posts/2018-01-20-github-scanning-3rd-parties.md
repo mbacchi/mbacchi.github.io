@@ -5,6 +5,7 @@ date: 2018-01-20 22:00:00
 comments: true
 published: true
 tags: github security
+redirect_to: https://bacchi.org/posts/github-scanning-3rd-parties/
 ---
 
 While writing [a Python library](https://github.com/mbacchi/python-git-secrets)

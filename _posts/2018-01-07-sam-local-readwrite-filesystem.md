@@ -5,6 +5,7 @@ date: 2018-01-07 14:10:00
 comments: true
 published: true
 tags: lambda sam local
+redirect_to: https://bacchi.org/posts/sam-local-readwrite-filesystem/
 ---
 
 While using [AWS Lambda SAM

@@ -5,6 +5,7 @@ date: 2018-01-22 13:50:00
 comments: true
 published: true
 tags: aws codecommit
+redirect_to: https://bacchi.org/posts/aws-codecommit-ssh-key-id/
 ---
 
 Working on AWS CodeCommit today, I setup SSH access to the repository. During the initial configuration I provided the SSH public key in the AWS Console, but then couldn't connect to my repository. In the brief instructions on the IAM Console page they tell you how to update your `~/.ssh/config` file, but the example doesn't explicitly say what the IdentityFile is supposed to be set to. In the more detailed instructions they do specify the IdentityFile should reference your <i><b>private key</b></i>, not your public key.

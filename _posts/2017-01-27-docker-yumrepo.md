@@ -4,6 +4,7 @@ title:  "Using Docker to create an ad hoc Yum repository"
 date:   2017-01-27 19:45:00
 comments: true
 tags: docker yum
+redirect_to: https://bacchi.org/posts/docker-yumrepo/
 ---
 
 Docker can be used to quickly create and serve many services, one such example

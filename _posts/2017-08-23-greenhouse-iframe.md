@@ -5,6 +5,7 @@ date:   2017-08-24 10:15:00
 comments: true
 published: true
 tags: troubleshooting, browser
+redirect_to: https://bacchi.org/posts/greenhouse-iframe/
 ---
 
 I was interested in a job description a company posted via Twitter, but I

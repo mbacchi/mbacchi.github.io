@@ -5,6 +5,7 @@ date:   2019-09-11 19:00:00
 comments: true
 published: true
 tags: brave docker container chromium chrome
+redirect_to: https://bacchi.org/posts/brave-in-docker/
 ---
 
 Security minded users often run Docker to create an additional sandbox around an
